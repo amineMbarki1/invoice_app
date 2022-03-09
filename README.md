@@ -20,6 +20,7 @@ Built With
 * How to use the context api in react
 * Managing complex forms in react using react-form-hook 
 * How to structure my react project 
+* How to Create custom react hooks
 * Practicing the mvc architecture in node 
 
 ## Future Updates
