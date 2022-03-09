@@ -8,6 +8,12 @@ My first Full stack project after learning React and node the design is from fro
 
 ![image](https://user-images.githubusercontent.com/93491949/157551028-1c6ef39f-21dc-492a-9d54-b301faa1c789.png)
 
+Built With
+* React
+* Node
+* CSS
+* Mongodb
+
 ##  What I've Learned 
 * JWt Authentification in node and react 
 * Animating react components with react-motion 
@@ -16,8 +22,8 @@ My first Full stack project after learning React and node the design is from fro
 * How to structure my react project 
 * Practicing the mvc architecture in node 
 
-##Future Updates
-[ ] Improving the UI responsiveness on smaller screens
-[ ] Adding OAuth 2 
-[ ] Deployement 
+## Future Updates
+- [ ] Improving the UI responsiveness on smaller screens
+- [ ] Adding OAuth 2 
+- [ ] Deployement 
 
