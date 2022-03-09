@@ -1,0 +1,53 @@
+.btn {
+  padding: 0.8rem 1rem;
+  border-radius: 30px;
+  font-weight: bold;
+}
+
+.btn--new {
+  background: #7c5cfd;
+  padding: 0.5rem 1rem;
+  color: white;
+  gap: 0.5rem;
+}
+
+.btn--new svg {
+  width: 2rem;
+  height: 2rem;
+  fill: white;
+}
+
+.btn--edit {
+  background: #fafafa;
+  color: grey;
+}
+
+.btn--delete {
+  background: #e4555a;
+  color: white;
+}
+
+.btn--mark-as-paid {
+  background: #7d5ef6;
+  color: white;
+}
+
+.btn--save {
+  color: #fff;
+  background: #7c5cfd;
+}
+
+.btn--save-as-draft {
+  background: darkgray;
+  color: #fff;
+}
+.btn--discard {
+  color: grey;
+}
+
+.btn--login,
+.btn--logout {
+  background: #46b5d1 !important;
+  border-color: #46b5d1 !important;
+  color: #fff;
+}

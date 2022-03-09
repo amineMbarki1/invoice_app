@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button {
+  padding: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: 'Lato';
+}
+
+body {
+  font-family: 'Lato';
+  background: rgb(248, 247, 252);
+  color: #333;
+}
+
+.card {
+  background: #fff;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); */
+  box-shadow: rgb(72 84 159 / 10%) 0px 10px 10px -10px;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex {
+  display: flex;
+}
+
+@media only screen and (max-width: 1160px) {
+  .container {
+    padding-left: 5rem;
+  }
+}
+@media only screen and (max-width: 940px) {
+  .container {
+    padding-left: 0;
+    max-width: 44rem;
+    padding-top: 5rem;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  body {
+    font-size: 12px;
+  }
+  .container {
+    max-width: 29rem;
+  }
+}

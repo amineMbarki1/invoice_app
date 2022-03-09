@@ -1,0 +1,44 @@
+.invoices-header {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.invoices-header__title {
+  font-size: 2.5rem;
+}
+
+.invoices-header__count {
+  color: grey;
+}
+
+.invoices-header__right {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.dropdown-container {
+  position: relative;
+
+  z-index: 10;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 3rem;
+  right: 1rem;
+  padding: 1rem;
+}
+
+.dropdown-menu li {
+  display: flex;
+  align-items: center;
+  padding-bottom: 0.3rem;
+  font-weight: bold;
+}
+.dropdown-menu input {
+  margin-right: 5px;
+}

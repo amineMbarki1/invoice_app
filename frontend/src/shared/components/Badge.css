@@ -1,0 +1,23 @@
+.badge {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+}
+
+.badge span {
+  font-weight: bold;
+}
+
+.badge--paid {
+  background: #adecc0;
+  color: #13ba3d;
+}
+
+.badge--pending {
+  background: rgb(255, 249, 235);
+  color: rgb(233, 154, 61);
+}
+
+.badge--draft {
+  background: rgb(243, 243, 245);
+  color: rgb(95, 94, 108);
+}

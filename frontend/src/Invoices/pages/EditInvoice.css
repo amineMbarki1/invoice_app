@@ -1,0 +1,15 @@
+.edit-invoice {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100vh;
+  background: white;
+  z-index: 100;
+  overflow: auto;
+  padding-left: 5rem;
+}
+
+.edit-invoice h1 {
+  padding: 2rem 2rem 0 2rem;
+}

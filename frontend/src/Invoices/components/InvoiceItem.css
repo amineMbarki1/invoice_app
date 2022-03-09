@@ -1,0 +1,53 @@
+.invoice-item {
+  margin: 1rem;
+  display: flex;
+  height: 5rem;
+  border: 1px solid transparent;
+  transition: border 0.3s ease;
+}
+.invoice-item:hover {
+  border: 1px solid rgb(160, 91, 224);
+}
+
+.invoice-item a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.invoice-item__id,
+.invoice-item__total {
+  font-weight: bold;
+  color: #333;
+}
+.invoice-item__total {
+  font-size: 1.5rem;
+}
+
+.invoice-item__id span {
+  color: aqua;
+}
+.invoice-item__payment-due {
+  color: #b3b1c6;
+}
+
+.invoice-item__client-name {
+  color: hsl(246, 16%, 60%);
+}
+
+@media only screen and (max-width: 760px) {
+  .invoice-item a {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+  }
+
+  .break {
+    flex-basis: 100%;
+    width: 0;
+  }
+}

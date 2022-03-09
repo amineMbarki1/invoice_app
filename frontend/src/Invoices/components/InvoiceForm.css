@@ -1,0 +1,57 @@
+.invoice-form h2 {
+  color: rgb(144, 118, 251);
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+.invoice-form__inputs-container {
+  padding: 2rem;
+}
+
+.invoice-form input,
+.invoice-form select {
+  padding: 0.9rem 0.7rem;
+  width: 100%;
+  border: rgb(223, 227, 250) 1px solid;
+  transition: border 0.3s ease;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.invoice-form input:focus,
+.invoice-form select:focus {
+  outline: none;
+  border: rgb(84, 144, 223) 1px solid;
+}
+.input-error {
+  border: #ed5c5c 1px solid !important;
+}
+
+.invoice-form .label-error {
+  color: #ed5c5c;
+}
+.invoice-form label {
+  display: block;
+  margin-bottom: 0.8rem;
+  font-size: 0.9rem;
+  color: rgb(139, 148, 201);
+}
+.invoice-form__item {
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.invoice-form .flex {
+  gap: 0.5rem;
+}
+
+.invoice-form__action {
+  padding: 2rem;
+  position: sticky;
+  bottom: 0;
+  background: #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.invoice-form__action a {
+  display: block;
+  margin-right: auto;
+}
