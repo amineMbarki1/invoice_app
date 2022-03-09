@@ -25,5 +25,6 @@ Built With
 ## Future Updates
 - [ ] Improving the UI responsiveness on smaller screens
 - [ ] Adding OAuth 2 
+- [ ] Finxing some bugs
 - [ ] Deployement 
 
